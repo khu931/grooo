@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+section.hero{
+    background-image: url('/images/bg.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  0 50px 0 50px;
+
+}
+
+.header .logo{
+    height: 20px;
+    width: 120px;
+    margin-top:20px;
+}
+
+.header .nav{
+   height: 20px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.header .nav .nav-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.nav .nav-list .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+.nav .nav-list .list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+.nav-list li i{
+    padding-right:5px ;
+}
+span.circle{
+    background-color: #09C748;
+    height: 8px;
+    width: 8px;
+    font-size: 7px;
+    padding: 1px;
+    margin-left: -5px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 0px;
+    position: absolute;
+}
+.hero-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.hero-content{
+    
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+}
+.heading p i{
+    color:#09C748;
+}
+.heading h1{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom:20px ;
+    line-height: 60px;
+}
+
+.inputs{
+    background-color: white;
+    width :700px;
+    height:60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.inputs button{
+    
+    padding: 20px 45px 21px 45px ;
+    border: none;
+    border-radius: 10px;
+    background-color: #09C748;
+    color: #ffff;
+    font-size: 18px;
+}
+
+input{
+    border: none;
+    width: 200px;
+    margin-left: 10px;
+    
+}
+input:focus{
+    outline: none;
+}
+.input i{
+    margin: 20px;
+    color:#09C748;
+}
+
+.category{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+
+.categories{
+    height: 250px;
+    width: 300px;
+    font-size: 16px;
+    border: 0px solid #eee;
+    background-color: #eee;
+    border-radius: 12px;
+    margin: 20px;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+.categories:hover{
+    background-color: #fff;
+    box-shadow: 5px 10px 5px  rgba(0,0,0,0.1);
+}
+.box{
+    text-align: center;
+}
+.box img{
+    height: 150px;
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.box p{
+    line-height: 25px;}
+
+.box-text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h4{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+.features{
+    padding-top: 20px;
+}
+.features .row{
+    padding: 10px;
+}
+
+.feature{
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.feature h5{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+
+.feature p{
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.feature .img img{
+    height: 100px;
+    width:100px;
+}
+
+.stores{
+    padding-top: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+.stores .row{
+    background-color: #16B271;
+    height: 300px;
+    color: rgb(252, 250, 250);
+}
+.green{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.green .content{
+    height: 200px;
+    width: 250px;
+    line-height: 25px;
+    color: #eee;
+}
+
+ .persentage img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 300px;
+}
+
+.brand{
+    padding:  20px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand h1{
+   text-align: center;
+   color: black; 
+   font-size: 22px;
+   margin-top: 10px;
+   font-weight: 500;
+   padding: 20px 0 20px;
+}
+
+.brand button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #16B271;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.brand-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    
+}
+
+.circle img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.owner-sec{
+    background-image: url('/images/Group\ 4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    object-fit:fill;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.owner-sec h3{
+    color: #16B271;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+
+
+.owner-sec p{
+    font-size: 18px;
+    color: rgb(134, 134, 134);
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.owner-sec button{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #16B271;
+    border-radius: 8px;
+    color: #16B271;
+    margin-top: 10px;
+}
+
+.owner-sec button:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #16B271;
+}
+
+.footer{
+    padding: 100px 50px 0 50px;
+    margin-bottom: 50px;
+}
+.footer .row{
+    justify-content: space-between; 
+    line-height: 25px;
+}
+
+.logo-brand img{
+    height: 45px;
+    width: 100px;
+}
+
+.logo-brand li i{
+    height: 30px;
+    width: 30px;
+}
+.discover h2,.about h2, .newsletter h2{
+   padding-bottom: 22px;
+   font-size: 20px;
+   color: rgb(68, 68, 68);
+}
+.newsletter input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;    
+}
+
+.newsletter input::placeholder{
+    color: rgb(209, 209, 209);
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.email i{
+    padding-right: 10px;
+    color: #16B271;
+}
+.footer li{
+    color: rgb(92, 92, 92);
+}
